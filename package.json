@@ -3,20 +3,23 @@
   "description": "Brunch - A Hugo theme with Brunch, CoffeeScript, Bootstrap and many more batteries included",
   "author": "Jörg Kütemeier",
   "version": "0.1.0",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/jkuetemeier/brunch-hugo-coffee-bootstrap-theme"
   },
   "scripts": {
-    "start": "brunch watch --server",
+    "start": "brunch watch",
     "build": "brunch build --production"
   },
   "dependencies": {},
   "devDependencies": {
-    "javascript-brunch": "^2.0.0",
-    "css-brunch": "^2.0.0",
-    "uglify-js-brunch": "^2.0.0",
+    "auto-reload-brunch": "^2.0.0",
+    "bower": "^1.7.7",
+    "brunch": "^2.4.2",
     "clean-css-brunch": "^2.0.0",
-    "auto-reload-brunch": "^2.0.0"
+    "css-brunch": "^2.0.0",
+    "javascript-brunch": "^2.0.0",
+    "uglify-js-brunch": "^2.0.0"
   }
 }
