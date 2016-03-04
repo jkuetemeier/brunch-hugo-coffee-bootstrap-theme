@@ -1,11 +1,11 @@
 {
-  "name": "brunch-app",
-  "description": "Description",
-  "author": "Your Name",
+  "name": "brunch-hugo-coffee-bootstrap-theme",
+  "description": "Brunch - A Hugo theme with Brunch, CoffeeScript, Bootstrap and many more batteries included",
+  "author": "Jörg Kütemeier",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/jkuetemeier/brunch-hugo-coffee-bootstrap-theme"
   },
   "scripts": {
     "start": "brunch watch --server",
