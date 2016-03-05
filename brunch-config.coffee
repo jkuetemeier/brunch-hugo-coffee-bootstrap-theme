@@ -3,6 +3,15 @@ module.exports = config:
   paths:
     public: 'static'
     watched: ['app','vendor']
+
+  conventions:
+    assets:  /^app[\/\\]+assets[\/\\]+/
+    ignored: /^(bower_components[\/\\]+bootstrap-less(-themes)?|app[\/\\]+styles[\/\\]+overrides|(.*?[\/\\]+)?[_]\w*)/
+
+  modules:
+    definition: false
+    wrapper: false
+
   files:
     javascripts:
       joinTo:
@@ -20,6 +29,8 @@ module.exports = config:
       joinTo:
         'css/app.css' : /^app/
         'css/vendor.css' : /(^bower_components|vendor)[\\/]/
+
+  minify: true
 
 ###
 module.exports = {
