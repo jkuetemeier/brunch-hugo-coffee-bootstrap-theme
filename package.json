@@ -13,17 +13,21 @@
     "start": "brunch watch",
     "build": "brunch build --production"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.1",
+    "font-awesome": "^4.5.0",
+    "lodash": "^4.6.1"
+  },
   "devDependencies": {
-    "auto-reload-brunch": "^2.0.0",
-    "brunch": "^2.4.2",
-    "clean-css-brunch": "^2.0.0",
+    "javascript-brunch": "^2.0.0",
     "coffee-script": "^1.10.0",
     "coffee-script-brunch": "^2.0.0",
-    "copycat-brunch": "^1.1.0",
     "css-brunch": "^2.0.0",
-    "javascript-brunch": "^2.0.0",
     "less-brunch": "^2.0.0",
-    "uglify-js-brunch": "^2.0.0"
+    "uglify-js-brunch": "^2.0.0",
+    "auto-reload-brunch": "^2.0.0",
+    "brunch": "^2.4.2",
+    "clean-css-brunch": "^2.0.0"
   }
 }
