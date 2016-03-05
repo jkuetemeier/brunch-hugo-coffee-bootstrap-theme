@@ -16,7 +16,6 @@
   "dependencies": {},
   "devDependencies": {
     "auto-reload-brunch": "^2.0.0",
-    "bower": "^1.7.7",
     "brunch": "^2.4.2",
     "clean-css-brunch": "^2.0.0",
     "coffee-script": "^1.10.0",
