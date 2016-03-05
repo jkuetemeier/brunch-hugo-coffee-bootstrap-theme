@@ -1,3 +1,4 @@
+
 # brunch-config.coffee
 module.exports = config:
   paths:
@@ -6,7 +7,9 @@ module.exports = config:
 
   conventions:
     assets:  /^app[\/\\]+assets[\/\\]+/
-    ignored: /^(bower_components[\/\\]+bootstrap-less(-themes)?|app[\/\\]+styles[\/\\]+overrides|(.*?[\/\\]+)?[_]\w*)/
+
+    ignored: ///^(bower_components[\/\\]+bootstrap-less(-themes)?|
+             app[\/\\]+styles[\/\\]+overrides|(.*?[\/\\]+)?[_]\w*)///
 
   modules:
     definition: false
@@ -30,15 +33,20 @@ module.exports = config:
         'css/app.css' : /^app/
         'css/vendor.css' : /(^bower_components|vendor)[\\/]/
 
-  minify: true
+  plugins:
+    copycat:
+      "fonts" : ["bower_components/font-awesome/fonts"]
+      "images": []
+      # shows each file that is copied to the destination directory
+      verbose : true
+      # only copy a file if it's modified time has changed
+      # (only effective when using brunch watch)
+      onlyChanged: true
 
-###
-module.exports = {
-  // See http://brunch.io for documentation.
-  files: {
-    javascripts: {joinTo: 'app.js'},
-    stylesheets: {joinTo: 'app.css'},
-    templates: {joinTo: 'app.js'}
-  }
-}
-###
+
+    bower:
+      asserts:
+        "img" : /bootstrap(\\|\/)img/
+        "font": /font-awesome(\\|\/)font/
+
+  clean: 'all'
