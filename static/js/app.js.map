@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/initialize.js"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AACA;AACA;AACA;AAHA;AAAA","file":"static/js/app.js","sourcesContent":["document.addEventListener('DOMContentLoaded', function() {\n  // do your setup here\n});\n"]}
