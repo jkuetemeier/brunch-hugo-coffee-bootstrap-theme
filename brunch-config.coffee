@@ -6,8 +6,8 @@ module.exports = config:
   files:
     javascripts:
       joinTo:
-        'javascripts/app.js' : /^app/
-        'javascripts/vendor.js' : /(^bower_components|vendor)[\\/]/
+        'js/app.js' : /^app/
+        'js/vendor.js' : /(^bower_components|vendor)[\\/]/
         # 'javascripts/bkm-vendor.js': [
         #   'bower_components/lodash/dist/lodash.js'
         #   'bower_components/modernizr/modernizr.js'
