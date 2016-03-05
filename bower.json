@@ -1,0 +1,18 @@
+{
+  "name": "brunch",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jkuetemeier/brunch-hugo-coffee-bootstrap-theme",
+  "authors": [
+    "Jörg Kütemeier <jk@kuetemeier.net>"
+  ],
+  "description": "A Hugo theme with Brunch, CoffeeScript, Bootstrap and many more batteries included",
+  "license": "Apache-2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
