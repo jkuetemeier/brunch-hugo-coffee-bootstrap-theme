@@ -12,7 +12,9 @@
     "start": "brunch watch",
     "build": "brunch build --production"
   },
-  "dependencies": {},
+  "dependencies": {
+    "less-brunch": "^2.0.0"
+  },
   "devDependencies": {
     "auto-reload-brunch": "^2.0.0",
     "bower": "^1.7.7",

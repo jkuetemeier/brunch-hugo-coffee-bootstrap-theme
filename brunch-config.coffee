@@ -18,7 +18,8 @@ module.exports = config:
 
     stylesheets:
       joinTo:
-        'css/app.css'
+        'css/app.css' : /^app/
+        'css/vendor.css' : /(^bower_components|vendor)[\\/]/
 
 ###
 module.exports = {
