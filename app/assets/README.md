@@ -1,1 +1,1 @@
-Files here will be copied as-is to public directory.
+Files here will be copied as-is to static directory.

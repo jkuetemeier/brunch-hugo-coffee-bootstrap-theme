@@ -91,12 +91,52 @@
   require._cache = cache;
   globals.require = require;
 })();
-require.register("initialize", function(exports, require, module) {
-document.addEventListener('DOMContentLoaded', function() {
-  // do your setup here
-  alert("Hello World");
+require.register("hello", function(exports, require, module) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = test;
+/* app/test.js */
+/* jslint es6: true */
+/* jshint strict: false */
+
+function test(msg) {
+
+  $("#msg").html(msg);
+
+  console.log('Hello, world form ES6!');
+}
 });
 
+;require.register("main", function(exports, require, module) {
+'use strict';
+
+var _hello = require('hello');
+
+var _hello2 = _interopRequireDefault(_hello);
+
+var _jquery = require('jquery');
+
+var _jquery2 = _interopRequireDefault(_jquery);
+
+var _lodash = require('lodash');
+
+var _lodash2 = _interopRequireDefault(_lodash);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+document.addEventListener('DOMContentLoaded', function () {
+  // do your setup here
+
+  var h = ["H", "e", "l", "l", "o"];
+  var w = ["World!"];
+
+  var msg = _lodash2.default.join(_lodash2.default.concat(_lodash2.default.join(h, ''), w), ' ');
+
+  (0, _hello2.default)(msg);
+}); // app/main.js
 });
 
 
