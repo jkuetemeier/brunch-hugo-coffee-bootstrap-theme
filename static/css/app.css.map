@@ -1,1 +1,0 @@
-{"version":3,"sources":["app/styles/style.less"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"static/css/app.css","sourcesContent":["body {\n  font-family: Georgia, serif;\n  font-size: 16px;\n  background: white;\n  color: black;\n}\nh1 {\n  font-size: 2em;\n  margin: 0.5em 0 1em;\n}\n"]}
