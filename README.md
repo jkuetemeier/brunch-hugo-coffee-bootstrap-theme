@@ -1,3 +1,9 @@
+## Archived
+
+This code is archived. I'm now using https://gohugo.io/hugo-pipes/
+
+It just stays here for your reference. Enjoy :-)
+
 # Brunch
 
 *A Hugo theme with Brunch, CoffeeScript, Bootstrap and many more batteries included*
